@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+  <h1>Registration form</h1>
+    <form action = "/action.php">
+        <input type="text" placeholder="username">
+        <br>
+        <br>
+
+        <input type="password" placeholder="password">
+        <br>
+    <br>
+    <h2>select your gender</h2>
+        <label>
+    <input type="radio" name="gender" value="female">
+    Female
+  </label>
+  <br>
+  <br>
+  <label>
+    <input type="radio" name="gender" value="male">
+    male
+  </label>
+  <br>
+  <br>
+  <br>
+  <h2>learning languges</h2>
+  <form id="languageForm">
+  <label><input type="checkbox" name="language" value="HTML"> HTML</label><br>
+  <label><input type="checkbox" name="language" value="CSS"> CSS</label><br>
+  <label><input type="checkbox" name="language" value="JavaScript"> JavaScript</label><br>
+  <label><input type="checkbox" name="language" value="Java"> Java</label><br>
+  <label><input type="checkbox" name="language" value="Python"> Python</label><br>
+  <br>
+
+  <h2>select your city</h2>
+  <select name="city">
+    <option value="Delhi">Delhi</option>
+     <option value="pune">pune</option>
+      <option value="banglore">banglore</option>
+       <option value="noida">noida</option>
+  </select>
+  <br>
+  <br>
+  <button type="button" onclick="getSelectedLanguages()">Submit</button>
+</form>
+
+
+    
+    </form>
+
+</body>
+</html>
